@@ -1,4 +1,5 @@
 # Rust Binary Search
+An implementation of the binary search algorithm in Rust.
 
 ## Usage
 

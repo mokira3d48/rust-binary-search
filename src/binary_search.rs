@@ -1,10 +1,10 @@
 use std::cmp::Ordering;
 
 
-pub fn find(array: &[i32], target: i32) -> Option<usize> {
-  if array.len() == 0 {
-    return None;
-  }
+pub fn find<T: Ord>(array: &[T], target: T) -> Option<usize> {
+  // By default, if the slice is empty, the its length will be equal to 0.
+  // So the low == high and this function will return None.
+
   let mut low = 0;
   let mut high = array.len();
   while low < high {
