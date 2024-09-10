@@ -22,3 +22,17 @@ fn main() {
     };
 }
 ```
+
+Output:
+
+```
+The position of 5 is: 3
+The number 10 is not found.
+```
+
+<!-- ## Testing
+
+```sh
+cargo watch -q -c -w src/ -x 'test -- --include-ignored'
+```
+-->
